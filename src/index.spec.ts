@@ -1,3 +1,6 @@
+import Person from ".";
+
 it("should sum", () => {
-  expect(1 + 2).toEqual(3);
+  const person = new Person();
+  expect(person.sayMaName()).toEqual("Carlos");
 });
